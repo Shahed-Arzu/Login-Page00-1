@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+body {
+    background: #76b852;
+  }
+
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 45px;
+    min-height: 600px;
+}
+.login-content .login-area {
+    background-color: white;
+    box-shadow: 0 5px 15px #ccc;
+    padding: 40px 10px;
+    border-radius: 10px;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    row-gap: 20px;
+}
+
+.login-content .login-area .login-form input {
+    width: 100%;
+    padding: 18px 12px;
+    font-size: 1.1em;
+    border: 2px solid #999;
+    border-radius: 5px;
+
+}
+
+.login-content .login-area .login-form input:focus {
+    outline: none;
+}
+form button {
+    width: 100%;
+    padding: 18px 12px;
+    background-color: #76b852;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+
+}
+
+form .nreg {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+form .nreg a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
